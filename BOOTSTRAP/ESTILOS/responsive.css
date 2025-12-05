@@ -1,0 +1,77 @@
+
+@media (max-width: 768px) {
+
+
+.col-4,
+.col-8,
+.col-3,
+.col-9,
+.info,
+.info2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+.col-divider {
+    border-right: 0;
+    border-bottom: 15px solid #1A1A1A;
+}
+
+
+.col-alta,
+.col-media,
+.col-centro,
+.colum-5,
+.colum-6,
+.info,
+.info2 {
+    height: auto;
+    min-height: 250px;
+}
+
+
+.col-media h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.colum-6.d-flex,
+.info.d-flex,
+.info2.d-flex {
+    flex-direction: column;
+    text-align: center;
+}
+
+.colum-6 img,
+.info img {
+    max-width: 80%;
+    margin-bottom: 1rem;
+}
+
+
+.mi-div {
+    height: auto;
+    opacity: 0.9;
+}
+
+
+.col-centro {
+    height: 400px;
+}
+
+
+#carouselExampleCaptions .carousel-caption h5 {
+    font-size: 1rem;
+}
+
+#carouselExampleCaptions .carousel-caption p {
+    font-size: 0.8rem;
+}
+
+
+.progress {
+    height: 16px;
+}
+}
